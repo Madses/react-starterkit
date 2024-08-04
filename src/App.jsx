@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./index.scss";
 
+import Icon from "./icon.svg";
+
 function App() {
     const [count, setCount] = useState(0);
     const handleClick = () => {
@@ -9,6 +11,8 @@ function App() {
     return (
         <div>
             {count}
+            <Icon />
+            {/* Ensure `alt` attribute is present for accessibility */}
             <button onClick={handleClick}>Click me</button>
         </div>
     );
