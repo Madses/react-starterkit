@@ -12,6 +12,7 @@ module.exports = {
             template: path.join(__dirname, "src", "index.html"),
         }),
     ],
+
     module: {
         rules: [
             {

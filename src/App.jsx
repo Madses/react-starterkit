@@ -12,7 +12,6 @@ function App() {
         <div>
             {count}
             <Icon />
-            {/* Ensure `alt` attribute is present for accessibility */}
             <button onClick={handleClick}>Click me</button>
         </div>
     );
